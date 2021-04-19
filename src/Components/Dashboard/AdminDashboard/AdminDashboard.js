@@ -19,7 +19,7 @@ const AdminDashboard = () => {
 
     // handle Submit
     const handleSubmit = (e) => {
-        fetch('http://localhost:4444/loginAdmin',{
+        fetch('https://calm-scrubland-09022.herokuapp.com/loginAdmin',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

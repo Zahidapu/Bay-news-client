@@ -7,7 +7,7 @@ const OrderList = () => {
     const [loggedInUser, setLoggedInUser] = useContext(userContext);
 
     useEffect(() => {
-        fetch('http://localhost:4444/review')
+        fetch('https://calm-scrubland-09022.herokuapp.com/review')
             .then(response => response.json())
             .then(data => {
                 console.log(data);

@@ -15,7 +15,7 @@ const AddService = () => {
             imageUrl: imageUrl,
             price: data.price
         }
-        const url = 'http://localhost:4444/addService'
+        const url = 'https://calm-scrubland-09022.herokuapp.com/addService'
 
         fetch(url, {
             method: 'POST',

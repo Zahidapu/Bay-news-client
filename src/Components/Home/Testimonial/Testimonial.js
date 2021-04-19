@@ -38,7 +38,7 @@ const Testimonial = () => {
     const [review, setReview] = useState([]);
     useEffect(() => {
         // data load to database
-        fetch('http://localhost:4444/review')
+        fetch('https://calm-scrubland-09022.herokuapp.com/review')
             .then((response) => response.json())
             .then((review) => {
                 console.log(review)

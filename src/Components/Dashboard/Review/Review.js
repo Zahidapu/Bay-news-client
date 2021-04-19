@@ -25,7 +25,7 @@ const Review = () => {
     const handleReviewSubmit = (event) => {
 
         // database ta data load
-        fetch('http://localhost:4444/reviewForm',{
+        fetch('https://calm-scrubland-09022.herokuapp.com/reviewForm',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -55,7 +55,7 @@ const Review = () => {
                         <h4 style={{}} className="m-4">Review</h4>
                     </div>
                     <div className="col-md-6 ">
-                        <h4 style={{}} className="text-warning m-4">{loggedInUser.displayName}</h4>
+                        <h4 style={{}} className="text-danger m-4">{loggedInUser.displayName}</h4>
                     </div>
                 </div>
                 <div className="bg-light p-5" style={{ width: '75%', margin: '0 auto' }}>
@@ -71,7 +71,7 @@ const Review = () => {
                         <br />
                         <input type="file" onBlur={handleChangeReview} name="image"  />
                         <div className="text-center">
-                            <input type="submit" value="Submit" className="btn btn-warning" />
+                            <input type="submit" value="Submit" className="btn btn-danger" />
                         </div>
                     </form>
                 </div>

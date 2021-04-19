@@ -22,7 +22,7 @@ const Contact = () => {
 
     // Form Submit
     const handleSubmit = (event) => {
-        fetch('http://localhost:4444/formData',{
+        fetch('https://calm-scrubland-09022.herokuapp.com/formData',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

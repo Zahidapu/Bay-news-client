@@ -28,7 +28,7 @@ const Booking = () => {
     // handleSubmit
     const handleSubmit = (event) => {
         useEffect(() => {
-            fetch('http://localhost:4444/booking', {
+            fetch('https://calm-scrubland-09022.herokuapp.com/booking', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
