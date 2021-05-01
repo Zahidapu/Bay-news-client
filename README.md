@@ -3,6 +3,7 @@ Project Name: BAY NEWS PHOTOGRAPHY SERVICE
 A comprehensive application Where you can find news images or news-related services of your choice
 
 Live web-app is here https://bay-news-service.web.app
+server Repository https://github.com/Zahidapu/Bay-news-server
 
 Dependencies used:mongodb,node js,express,cors,dotenv,react router,react hook from,bootstrap
 
